@@ -21,7 +21,7 @@ is smarter than me and other programmers in the company
 because he is the only one can solve that problem. Smart
 is a special gift from god, you can not ask for it. I
 did not ask him. Times go by, I forgot that time
-because tried something to overcome the limitation:
+because I tried something to overcome the limitation:
 learning many new technologies by using open source
 libraries.
 
