@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>QACR - Q/A Conditioned Reflex</title>
+  <meta name="title" content="QACR - Q/A Conditioned Reflex">
+  <meta name="description" content="QACR is a tiny service which helps users building conditioned reflex on answering questions. It's intention is for helping users speaking English or foreign languages fluently.">
+  <script src="./jquery-3.7.1.min.js"></script>
+  <script src="./qacr-0.1.1-min.js"></script>
+  <script>
+let contents = `
+===___=====_===___=___===
+     JOB INTERVIEW
+=========================
+
+<input type="button" class="qacr-button" value="PHP" onclick="g_qacr.build('../qa/1/php');" />
+
+`;
+
+function qacr_load() {
+  g_qacr = new QACR({'auto_load': true, 'data_path': '../qa/1/php', 'contents': contents});
+  g_qacr.start($('#qacr-kiosk'));
+}
+  </script>
+</head>
+<body onload="qacr_load();">
+ <div id="qacr-kiosk"></div>
+</body>
+</html>
