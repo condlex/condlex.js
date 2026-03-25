@@ -12,4 +12,10 @@ Copyright @ 2026 Dinh Thoai Tran
 QACR is distributed under GPL v2 license as
 in LICENSE.js file. Please visit 
 [ https://github.com/condlex ] for more details.
+
+
+=====] JavaScript Obfuscator Online ]=====
++ Used to make qacr-0.1.1-min.js
++ URL: https://codebeautify.org/javascript-obfuscator
+
 ```
