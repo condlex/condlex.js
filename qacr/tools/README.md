@@ -10,6 +10,6 @@ Copyright @ 2026 Dinh Thoai Tran
 <zinospetrel@sdf.org>
 
 QACR is distributed under GPL v2 license as
-in LICENSE.js file. Please visit 
+in ../LICENSE.js file. Please visit 
 [ https://github.com/condlex ] for more details.
 ```
